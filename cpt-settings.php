@@ -1,6 +1,6 @@
 <?php
 /**
-* CPT Maker
+* CPT Settings
 *
 * @category WordPressPlugin
 * @package Extender
@@ -11,7 +11,7 @@
 * @wordpress-plugin
 * Plugin Name: CPT Maker
 * Plugin URI: https://www.benrothman.org
-* Description: Just a simple WordPress plugin to add/edit/remove different custom post types (CPTs) from the current WordPress installation.
+* Description: Just a simple WordPress plugin to add a settings page to the dashboard to add/edit/remove different custom post types (CPTs) from the current installation.
 * Version: 1.4.0
 * Author: Ben Rothman
 * Author URI: https://www.BenRothman.org
