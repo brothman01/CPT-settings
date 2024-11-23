@@ -1,0 +1,71 @@
+.wrap {
+    overflow-x: auto;
+}
+
+table.wp-list-table {
+    table-layout: auto;
+    width: 100%;
+}
+
+table.wp-list-table th,
+table.wp-list-table td {
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+table.wp-list-table th {
+    background-color: #f9f9f9;
+}
+
+table.wp-list-table th:nth-child(1),
+table.wp-list-table td:nth-child(1) {
+    min-width: 200px;
+}
+
+table.wp-list-table th:nth-child(2),
+table.wp-list-table td:nth-child(2) {
+    min-width: 200px;
+}
+
+table.wp-list-table th:nth-child(3),
+table.wp-list-table td:nth-child(3) {
+    min-width: 150px;
+}
+
+table.wp-list-table th:nth-child(4),
+table.wp-list-table td:nth-child(4) {
+    min-width: 250px;
+}
+
+table.wp-list-table th:nth-child(5),
+table.wp-list-table td:nth-child(5) {
+    min-width: 100px;
+}
+
+table.wp-list-table th:nth-child(6),
+table.wp-list-table td:nth-child(6) {
+    min-width: 250px;
+}
+
+table.wp-list-table th:nth-child(7),
+table.wp-list-table td:nth-child(7) {
+    min-width: 250px;
+}
+
+table.wp-list-table th:nth-child(8),
+table.wp-list-table td:nth-child(8) {
+    min-width: 150px;
+}
+
+table.wp-list-table th:nth-child(9),
+table.wp-list-table td:nth-child(9) {
+    min-width: 150px;
+}
+
+table.wp-list-table th {
+    position: sticky;
+    top: 0;
+    background-color: #f9f9f9;
+    z-index: 1;
+}
