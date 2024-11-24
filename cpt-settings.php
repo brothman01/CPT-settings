@@ -79,6 +79,7 @@ class CPT_Settings {
         ?>
         <div class="wrap">
             <h1><?php esc_html_e( 'Custom Post Type Settings', 'cpt-maker' ); ?></h1>
+            <h2>Add, Create or Remove CPTs (Custom Post Types) below! Don't forget to save, happy WordPressing!</h2>
             <form method="post" id="cpt-form" action="">
                 <?php wp_nonce_field( 'CPT_Settings_events_nonce', 'CPT_Settings_events_nonce_field' ); ?>
                 <table class="wp-list-table widefat fixed striped" style="padding-bottom: 15px; margin-bottom: 15px;">
